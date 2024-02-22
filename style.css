@@ -6,6 +6,11 @@
     font-family: "Poppins", sans-serif;
 }
 
+body{
+    height: 100vh;
+    color: white !important;
+}
+
 .navbar{
     background-color: white !important;
 }
@@ -29,31 +34,23 @@
     width: 100px;
 }
 
-.hero-head-txt{
-    font-size: 40px;
-    font-weight: 500;
+.body-section{
+    background-color: black !important;
+    border-radius: 50px;
 }
 
-.hero-section{
-    border-radius: 150px;
-}
-
-.hero-img{
-    height: 70vh;
+.head-txt{
+    font-weight: 600;
 }
 
 .get-btn{
     background-color: #54e854 !important;
-    border-radius: 20px;
     font-weight: 600;
+    width: 225px;
+    padding: 10px;
+    border-radius: 20px;
 }
 
-.content-container{
-    color: white !important;
-    background-color: black !important;
-}
-
-.close{
-    background-color: none;
-    border: none;
+.more-txt:hover{
+    color: #54e854 !important;
 }
